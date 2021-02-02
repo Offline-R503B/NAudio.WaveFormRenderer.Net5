@@ -1,11 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveFormRenderer", "WaveFormRenderer\WaveFormRenderer.csproj", "{F5334F42-9D05-43EB-8E98-2C02CED19BDF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A1483F0-783C-4B29-9BDC-D39FFA534D2C} = {3A1483F0-783C-4B29-9BDC-D39FFA534D2C}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveFormRendererLib", "WaveFormRendererLib\WaveFormRendererLib.csproj", "{3EFEF2D1-5D08-46FD-AF6D-098DBE7FB3B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAudio.WaveFormRendererNet5", "NAudio.WaveFormRendererNet5\NAudio.WaveFormRendererNet5.csproj", "{3A1483F0-783C-4B29-9BDC-D39FFA534D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAudio.WaveFormRendererNet5Demo", "NAudio.WaveFormRendererNet5Demo\NAudio.WaveFormRendererNet5Demo.csproj", "{C9A1EEFB-0068-4B33-BBF6-6A405F7016DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +22,19 @@ Global
 		{F5334F42-9D05-43EB-8E98-2C02CED19BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5334F42-9D05-43EB-8E98-2C02CED19BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5334F42-9D05-43EB-8E98-2C02CED19BDF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3EFEF2D1-5D08-46FD-AF6D-098DBE7FB3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EFEF2D1-5D08-46FD-AF6D-098DBE7FB3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EFEF2D1-5D08-46FD-AF6D-098DBE7FB3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EFEF2D1-5D08-46FD-AF6D-098DBE7FB3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1483F0-783C-4B29-9BDC-D39FFA534D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1483F0-783C-4B29-9BDC-D39FFA534D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1483F0-783C-4B29-9BDC-D39FFA534D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1483F0-783C-4B29-9BDC-D39FFA534D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9A1EEFB-0068-4B33-BBF6-6A405F7016DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A1EEFB-0068-4B33-BBF6-6A405F7016DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A1EEFB-0068-4B33-BBF6-6A405F7016DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A1EEFB-0068-4B33-BBF6-6A405F7016DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {594CD827-A72B-4AF1-9F8C-1DDABF6B21B5}
 	EndGlobalSection
 EndGlobal
