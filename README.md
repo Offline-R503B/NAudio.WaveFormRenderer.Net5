@@ -1,4 +1,4 @@
-# NAudio.WaveFormRenderer
+# NAudio.WaveFormRenderer (PORTED BY OFFLINE TO NET5)
 Simple utility to render waveforms of audio files to PNGs. Uses [NAudio](https://github.com/naudio/naudio) to extract the peaks and `System.Drawing` to render the images.
 
 The project contains the `WaveFormRendererLib` library which performs peak calculation and waveform rendering, along with a simple test harness WinForms application to try it out with different settings. This can be used in any project that is able to take a dependency on NAudio and System.Drawing. It can be used in WinForms or WPF apps, or within ASP.NET applications to generate server side waveform images.
